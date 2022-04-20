@@ -126,7 +126,6 @@ a {
 }
 /*圖片取代文字*/
 .headerLogo {
-    display: flex;
     padding: 10px;
 }
 
@@ -341,7 +340,6 @@ a {
 }
 
 .footerLogo {
-    display: flex;
     padding: 5px;
 }
 
@@ -349,7 +347,7 @@ a {
     text-decoration: none;
     display: block;
 }
-.footerLogo h1 a{
+.footerLogo h2 a{
     width: 224px;
     height: 50px;
     background: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/footerLogo.png) white no-repeat;

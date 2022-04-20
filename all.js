@@ -47,7 +47,7 @@ $(document).ready(function() {
     fadeDuration: 1000,
     resizeDuration: 500
   });
-  
+
   $(".top a").click(function(e) {
     e.preventDefault();
     $("html , body").animate({
