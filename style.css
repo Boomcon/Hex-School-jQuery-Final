@@ -124,6 +124,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 /*圖片取代文字*/
 .headerLogo {
     padding: 10px;
@@ -131,9 +132,6 @@ a {
 
 .headerLogo a {
     display: block;
-}
-
-.headerLogo h1 a {
     width: 224px;
     height: 50px;
     background: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png) no-repeat;
@@ -373,6 +371,7 @@ a {
     background: pink;
     padding: 10px;
     border-radius: 40px; 
+    display: none;
 }
   
 .top a:hover {

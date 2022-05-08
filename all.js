@@ -54,5 +54,13 @@ $(document).ready(function() {
       scrollTop: 0
     }, 1000);
   });
-  
+
+  $(window).scroll(function() {
+    if ( $(this).scrollTop() > 500){
+        $(".top a").fadeIn("fast");
+    } else {
+        $(".top a").stop().fadeOut("fast");
+    }
+  });
+
 });
